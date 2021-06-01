@@ -1,0 +1,27 @@
+site
+node_modules
+deploy.json
+dist
+app/bower_components
+_design
+/bower_components
+/build
+# Created by .ignore support plugin (hsz.mobi)
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+package-lock.json
+*.zip
+*.rar
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns

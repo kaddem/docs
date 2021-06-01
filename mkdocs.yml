@@ -1,0 +1,15 @@
+site_name: Study Docs
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - footnotes
+  - toc:
+      permalink: '#'
+
