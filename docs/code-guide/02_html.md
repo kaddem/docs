@@ -34,7 +34,7 @@
 <br>
 
 
-3. Настрой редактор так, что бы отступы вложенных тегов формировались двумя символами пробела - размести файл [.editorconfig]() (универсальные настройки редактора) в папке проекта и установи его поддержку в редакторе.
+3. Настрой редактор так, что бы отступы вложенных тегов формировались двумя символами пробела - размести файл [.editorconfig](https://github.com/kaddem/docs/blob/master/.editorconfig) (универсальные настройки редактора) в папке проекта и установи его поддержку в редакторе.
 Что бы VSCode научился работать с ```.editorconfig``` файлом - [установи плагин](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 <br><br>
 
@@ -85,7 +85,7 @@
   <title>Контакты</title>
 </head>
 <body>
-  
+
 </body>
 </html>
 
@@ -97,7 +97,7 @@
   <title>Контакты</title>
 </head>
 <body>
-  
+
 </body>
 </html>
 ```
@@ -170,7 +170,7 @@
 </head>
 <body>
   <link rel="stylesheet" href="style.css">
-  
+
   <!-- Тут разметка HTML страницы -->
 </body>
 
@@ -204,7 +204,7 @@
 <!-- Плохо: -->
 <body>
   <script src="script.js"></script>
-  
+
   <!-- Тут разметка HTML страницы -->
 </body>
 
