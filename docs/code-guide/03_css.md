@@ -57,7 +57,7 @@
 
 /* Хорошо: */
 .selector {
-  width: 50%; 
+  width: 50%;
   padding: 0 15px;
 }
 ```
@@ -72,7 +72,7 @@
 
 /* Хорошо: */
 .selector {
-  width: 50%; 
+  width: 50%;
 }
 ```
 <br>
@@ -86,7 +86,7 @@
 
 /* Хорошо: */
 .selector {
-  width: 50%; 
+  width: 50%;
 }
 ```
 <br>
@@ -135,7 +135,7 @@
 ```
 <br>
 
-9. Hex значения пиши строчными буквами:
+9. HEX значения пиши строчными буквами:
 ```css
 /* Плохо: */
 .selector {
@@ -149,7 +149,7 @@
 ```
 <br>
 
-10. Сокращаю Hex значения по возможности:
+10. Сокращай HEX значения по возможности:
 ```css
 /* Плохо: */
 .selector {
@@ -191,7 +191,7 @@ a[href^="http"] {
 ```
 <br>
 
-13. Настрой редактор так, что бы отступы объфвлений формировались двумя символами пробела - размести файл [.editorconfig]() (универсальные настройки редактора) в папке проекта и установи его поддержку в редакторе.
+13. Настрой редактор так, что бы отступы объявлений формировались двумя символами пробела - размести файл [.editorconfig](https://github.com/kaddem/docs/blob/master/.editorconfig) (универсальные настройки редактора) в папке проекта и установи его поддержку в редакторе.
 Что бы VSCode научился работать с ```.editorconfig``` файлом - [установи плагин](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 <br>
@@ -277,7 +277,7 @@ nav.main-nav {
 ```css
 /* Плохо: */
 .red-icon-facebook-in-footer {} /* Слишком длинное название */
-.icon1 {} /* НЕ информативное название - что это за иконка? 
+.icon1 {} /* НЕ информативное название - что это за иконка?
 А если мконок пара десятков на весь сайт, можно запуться */
 .block {} /* НЕ информативное название */
 .red {} /* А что если html тег с таким классом нужно будет сделать зеленым? */
@@ -316,26 +316,26 @@ nav.main-nav {
   bottom: 0;
   left: 0;
   z-index: 100;
-   
+
   display: flex;
 
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
   padding: 15px;
   margin-top: 20px;
-   
+
   font-family: Arial, "Helvetica Neue", sans-serif;
   font-size: 13px;
-  line-height: 1.5; 
+  line-height: 1.5;
   color: #333;
   text-align: center;
-   
+
   background-color: #f5f5f5;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   opacity: 1;
-   
+
   transition: all .3s;
 }
 ```
