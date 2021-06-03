@@ -12,4 +12,9 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: '#'
+nav:
+  - home: index.md
+  - 'Code guide':
+    - 'Правила написания HTML': 'code-guide/02_html.md'
+    - 'Правила написания CSS': 'code-guide/03_css.md'
 
