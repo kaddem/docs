@@ -1,0 +1,747 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.5">
+    
+    
+      
+        <title>Настройка окружения - Study Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Study Docs" class="md-header__button md-logo" aria-label="Study Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Study Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Настройка окружения
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../code-guide/02_html/" class="md-tabs__link">
+        Code guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Инструметы разработчика
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Study Docs" class="md-nav__button md-logo" aria-label="Study Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Study Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Code guide
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Code guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Code guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../code-guide/02_html/" class="md-nav__link">
+        Правила написания HTML
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../code-guide/03_css/" class="md-nav__link">
+        Правила написания CSS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        Инструметы разработчика
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Инструметы разработчика" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Инструметы разработчика
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Настройка окружения
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Настройка окружения
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-studio-code" class="md-nav__link">
+    Visual Studio Code
+  </a>
+  
+    <nav class="md-nav" aria-label="Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vscode" class="md-nav__link">
+    Горячие клавиши VSCode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vscode_1" class="md-nav__link">
+    Расширения VSCode
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Установка на Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac" class="md-nav__link">
+    Установка на Mac
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#githubcom" class="md-nav__link">
+    Аккаунт на github.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    Настройка Git
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nodejs" class="md-nav__link">
+    node.js
+  </a>
+  
+    <nav class="md-nav" aria-label="node.js">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nodejs_1" class="md-nav__link">
+    Установка node.js
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-studio-code" class="md-nav__link">
+    Visual Studio Code
+  </a>
+  
+    <nav class="md-nav" aria-label="Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vscode" class="md-nav__link">
+    Горячие клавиши VSCode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vscode_1" class="md-nav__link">
+    Расширения VSCode
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Установка на Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac" class="md-nav__link">
+    Установка на Mac
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#githubcom" class="md-nav__link">
+    Аккаунт на github.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    Настройка Git
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nodejs" class="md-nav__link">
+    node.js
+  </a>
+  
+    <nav class="md-nav" aria-label="node.js">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nodejs_1" class="md-nav__link">
+    Установка node.js
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">Настройка минимально необходимых инструментов<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<h2 id="visual-studio-code">Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permanent link">#</a></h2>
+<p><a href="https://code.visualstudio.com">Visual Studio Code</a> - бесплатный, расширяемый редактор кода от Microsoft.</p>
+<p><a href="https://code.visualstudio.com">Скачай</a> и установи его.</p>
+<p><br></p>
+<h3 id="vscode">Горячие клавиши VSCode<a class="headerlink" href="#vscode" title="Permanent link">#</a></h3>
+<p>Редактор кода - инструмент. Он помогает нам, разработчикам, писать код, в том числе писать код быстрее. Для этого существуют клавиатурные сокрашения - избавляют от траты времени на поиск мыши, поиск нужного пункта меню в настройках и клика по нему.</p>
+<p>Попробуй найти в настроках пункт <code>Open</code>. Или нажми <code>⌘O</code>(Mac) / <code>Ctrl+O</code>(Win). Что быстрее?</p>
+<p>С клавиатуры быстрее управлять перемещением курсора по коду. Менять местами строки кода, вырезать и вставлять код, форматировать его и т.д.</p>
+<p>К использованию клавиатурных сокращений нужно привыкнуть. Заставить себя их изучать и использовать!</p>
+<p>Список клавиатурных сокращений с официального сайта:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Сокращения для Windows</a></li>
+<li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Сокращения для Mac</a></li>
+</ul>
+<p>Трать на изучение хотя бы по 15-20 минут в день. Начни с разделов:</p>
+<ul>
+<li>Basic editing</li>
+<li>Multi-cursor and selection</li>
+<li>File management</li>
+</ul>
+<p><br></p>
+<h3 id="vscode_1">Расширения VSCode<a class="headerlink" href="#vscode_1" title="Permanent link">#</a></h3>
+<p>Плагины расширяют базовые возможности VSCode. Ниже короткий список полезных плагинов, которые стоит установить сразу. Нажми <code>⇧⌘X</code>(Mac) / <code>Ctrl+Shift+X</code>(Win) - в открывшейся панели расширений найди и установи:</p>
+<ol>
+<li>
+<p><strong>EditorConfig for VS Code</strong> by <code>EditorConfig</code> - плагин научит редактор понимать файл <code>.editorconfig</code>. Зачем нужен файл <code>.editorconfig</code> - см. Синтаксис HTML, пункт 3 в <a href="https://kaddem.github.io/docs/code-guide/02_html/#_1">Code Guide</a></p>
+</li>
+<li>
+<p><strong>Auto Rename Tag</strong> by <code>Jun Han</code> - при замене имени открывающего тега, автоматически изменится имя тега в закрывающей части. Это удобно.</p>
+</li>
+<li>
+<p><strong>Live Server</strong> by <code>Ritwick Dey</code> - простой локальный сервер. Запуск - клик правой кнопкой мыши на файле HTML и выбор пункта <code>open with live server</code>. Подробнее смотри в описании к плагину.</p>
+</li>
+<li>
+<p><strong>htmltagwrap</strong> by <code>Brad Gashler</code> - быстрое оборачивание выделенного куска текса тегом. Смотри как работает в описании к плагину.</p>
+</li>
+</ol>
+<p><br></p>
+<h2 id="git">Git<a class="headerlink" href="#git" title="Permanent link">#</a></h2>
+<p><a href="https://git-scm.com">Git</a> - система контроля версий.</p>
+<p><a href="https://git-scm.com/download">Скачай Git</a> c официального сайта и установи его.</p>
+<p><br></p>
+<h3 id="windows">Установка на Windows<a class="headerlink" href="#windows" title="Permanent link">#</a></h3>
+<ol>
+<li>Во время установи соглашайся с настройками по умолчанию.</li>
+<li>После установки найди в меню Пуск программу <code>Git bash</code> - запусти ее. Это терминал, консольная утилита.</li>
+<li>Введи команду и нажми <code>enter</code>:
+<div class="highlight"><pre><span></span><code>git --version   <span class="c1"># в ответ получишь что-то типа - &quot;git version 2.30.0&quot;</span>
+</code></pre></div></li>
+</ol>
+<p>Поздравляю - Git установлен.</p>
+<p><br></p>
+<h3 id="mac">Установка на Mac<a class="headerlink" href="#mac" title="Permanent link">#</a></h3>
+<p>Раздел будет дополнен... coming soon</p>
+<p><br></p>
+<h3 id="githubcom">Аккаунт на github.com<a class="headerlink" href="#githubcom" title="Permanent link">#</a></h3>
+<p><a href="https://github.com">Github</a> - веб-сервис работающий на базе системы контроля версий Git.</p>
+<p>Для полноценной работы с Git нам нужно зарегистрироваться на <a href="https://github.com">Github</a>.
+Сделай это и запомни почту на которую регистрировал аккаунт на <a href="https://github.com">Github</a>.</p>
+<p><br></p>
+<h3 id="git_1">Настройка Git<a class="headerlink" href="#git_1" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>В терминале <code>Git bash для win / встроенный терминал для Mac</code> выполни по очереди две команды:
+<div class="highlight"><pre><span></span><code>git config --global user.name <span class="s2">&quot;Your Name&quot;</span>
+<span class="c1"># где Your Name - твое имя на английском</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>git config --global user.email your@email.com
+<span class="c1"># где your@email.com - почта указанная при регистрации аккаунта на github</span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Проверь корректность применеия настроек. Выполни команду:
+<div class="highlight"><pre><span></span><code>git config --list
+<span class="c1"># в ответе получишь список настроек, среди которых должны быть две строки:</span>
+<span class="c1"># user.name=Your Name</span>
+<span class="c1"># user.email=your@email.com</span>
+</code></pre></div></p>
+</li>
+</ol>
+<p>Поздравляю - ты справился с установкой и первоначальной настройкой Git.</p>
+<p><br></p>
+<h2 id="nodejs">node.js<a class="headerlink" href="#nodejs" title="Permanent link">#</a></h2>
+<p><a href="https://nodejs.org/en/">node.js</a> - как пишет <a href="https://ru.wikipedia.org/wiki/Node.js">Wikipedia</a>, это платформа, превращающая JavaScript из узкоспециализированного языка в язык общего назначения. С помощью node.js на javaScript можно писать серверную часть web-приложений и даже разработать десктопные программы.</p>
+<p>Нам, на курсе начинающих web-разработчиков, <a href="https://nodejs.org/en/">node.js</a> нужен для компиляции препроцессорных файлов стилей <code>*.scss</code> в конечный <code>style.css</code>.</p>
+<p><br></p>
+<h3 id="nodejs_1">Установка node.js<a class="headerlink" href="#nodejs_1" title="Permanent link">#</a></h3>
+<ol>
+<li><a href="https://nodejs.org/en/">Скачай node.js</a> с официального сайта, нажав на большую зеленую кнопку слева - это LTS версия с длительной поддержкой.</li>
+<li>Запусти установочный файл, согласись с условиями лицензии, согласись с предложенными настройками по умолчанию.</li>
+<li>После установки проверь, что все установилось. Выполни в терминале по очереди две команды:
+<div class="highlight"><pre><span></span><code>node --version
+<span class="c1"># в ответ получишь версию node.js</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>npm --version
+<span class="c1"># в ответ получишь версию npm</span>
+</code></pre></div></li>
+</ol>
+<p><code>npm</code> - пакетный менеджер. Устанавливается с node.js. Он нужен, что бы устанавливать из терминала разные консольные утилиты, для выполнения тех или иных задач, например компиляции <code>scss</code> в <code>css</code></p>
+<p>Поздравляю - node.js и npm установлены.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../code-guide/03_css/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              Правила написания CSS
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e # \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a1609d9a.min.js"></script>
+      
+    
+  </body>
+</html>
