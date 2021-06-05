@@ -17,4 +17,6 @@ nav:
   - 'Code guide':
     - 'Правила написания HTML': 'code-guide/02_html.md'
     - 'Правила написания CSS': 'code-guide/03_css.md'
+  - 'Инструметы разработчика':
+    - 'Настройка окружения': 'tools/settings.md'
 
