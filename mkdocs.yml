@@ -11,10 +11,16 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - footnotes
+  - attr_list
   - toc:
       permalink: '#'
 nav:

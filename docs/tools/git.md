@@ -5,3 +5,4 @@
 ## SSH соединение
 
 ### Создание ключа
+![Placeholder](../../images/terminal.png){ align=left }
