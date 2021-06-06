@@ -189,13 +189,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../settings/" class="md-tabs__link">
+      <a href="../settings/" class="md-tabs__link md-tabs__link--active">
         Инструметы разработчика
       </a>
     </li>
@@ -321,12 +323,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       <label class="md-nav__link" for="__nav_3">
         Инструметы разработчика
@@ -347,6 +351,146 @@
       <a href="../settings/" class="md-nav__link">
         Настройка окружения
       </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Работа с Git
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Работа с Git
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    Задачи Git
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-" class="md-nav__link">
+    Git-репозиторий
+  </a>
+  
+    <nav class="md-nav" aria-label="Git-репозиторий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Локальный репозиторий
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Удаленный репозиторий
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    SSH протокол
+  </a>
+  
+    <nav class="md-nav" aria-label="SSH протокол">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssh_1" class="md-nav__link">
+    Создание SSH ключа
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-github" class="md-nav__link">
+    Добавление ssh-ключа на github
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-_1" class="md-nav__link">
+    Создание Git-репозитория
+  </a>
+  
+    <nav class="md-nav" aria-label="Создание Git-репозитория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    Создаем репозиторий на github
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-" class="md-nav__link">
+    Вариант 1 - с нуля
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-" class="md-nav__link">
+    Вариант 2 - из заготовки
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -383,16 +527,91 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    SSH соединение
+  <a href="#git_1" class="md-nav__link">
+    Задачи Git
   </a>
   
-    <nav class="md-nav" aria-label="SSH соединение">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-" class="md-nav__link">
+    Git-репозиторий
+  </a>
+  
+    <nav class="md-nav" aria-label="Git-репозиторий">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    Создание ключа
+    Локальный репозиторий
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Удаленный репозиторий
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    SSH протокол
+  </a>
+  
+    <nav class="md-nav" aria-label="SSH протокол">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssh_1" class="md-nav__link">
+    Создание SSH ключа
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-github" class="md-nav__link">
+    Добавление ssh-ключа на github
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-_1" class="md-nav__link">
+    Создание Git-репозитория
+  </a>
+  
+    <nav class="md-nav" aria-label="Создание Git-репозитория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    Создаем репозиторий на github
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-" class="md-nav__link">
+    Вариант 1 - с нуля
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-" class="md-nav__link">
+    Вариант 2 - из заготовки
   </a>
   
 </li>
@@ -420,10 +639,134 @@
                 
                 
                 <h1 id="git">Работа с Git<a class="headerlink" href="#git" title="Permanent link">#</a></h1>
-<p><strong>Git</strong> - система контроля версий</p>
-<h2 id="ssh">SSH соединение<a class="headerlink" href="#ssh" title="Permanent link">#</a></h2>
-<h3 id="_1">Создание ключа<a class="headerlink" href="#_1" title="Permanent link">#</a></h3>
-<p><img align="left" alt="Placeholder" src="../../images/terminal.png" /></p>
+<p><strong>Git</strong> - система контроля версий.</p>
+<h2 id="git_1">Задачи Git<a class="headerlink" href="#git_1" title="Permanent link">#</a></h2>
+<ul>
+<li>сохранять историю изменений в проекте.</li>
+<li>дать возможность откатиться к более ранним сохраненным состояниям при необходимости.</li>
+<li>при совместной работе над одним проектом двух и более человек, НЕ дать разработчикам затереть код, написанный коллегой.</li>
+<li>иметь резервную копию проекта</li>
+</ul>
+<h2 id="git-">Git-репозиторий<a class="headerlink" href="#git-" title="Permanent link">#</a></h2>
+<p>Просто католог файловой системы - обычная папка в которой находяться файлы проекта. Только Git'у "сказали" работать в этой папке и сдедить за всеми изменениями в файлах этой папки, что бы можно было их сохранять.</p>
+<h3 id="_1">Локальный репозиторий<a class="headerlink" href="#_1" title="Permanent link">#</a></h3>
+<p><strong>Локальный репозиторий</strong> - та самая папка проекта с работающим в ней Git'ом и расположенная локально на твоем личном компьютере.</p>
+<p>Когда над проектом работает несколько человек - у каждого на его компьютере своя локальная копия репозитория.</p>
+<p>Разработчики могут находиться в разных городах/странах/континентах. Как же происходит синхронизация изменений в проекте между локальными репозиториями разработчиков?</p>
+<p>Через удаленный репозиторий.</p>
+<h3 id="_2">Удаленный репозиторий<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
+<p><strong>Удаленный репозиторий</strong> - та же самая папка проекта размещенная на удаленном сервере.</p>
+<p>Как работает схема:</p>
+<ol>
+<li>Сохраняешь изменения в локальном репозитории - это наывается <strong>коммит</strong> (от названия консольной команды <code>git commit</code>). Часто можно услышать фразу - "Сейчас заккомичу!" - т.е. сохраню внесенные изменения в проекте в git'е</li>
+<li>Отправляешь изменения на удаленный сервер - это называется <strong>запушить</strong> (от названия консольной команды <code>git push</code>).</li>
+<li>Другой разработчик скачивает изменения из удаленного репозитория к себе в локальный - говорят <strong>стянуть</strong>  или <strong>пульнуть</strong> (от названия консольной команды <code>git pull</code>)</li>
+</ol>
+<p>В нашем случае роль удаленного репозитория выполняет сервис <a href="https://github.com">github</a>.</p>
+<p>Нет аккаунта на github - скорее всего тебе нужно в предыдущий раздел про <a href="../settings/">настройку окружения</a>. Иди туда, полностью все настраивай и только после этого возвращайся сюда)</p>
+<p><br></p>
+<h2 id="ssh">SSH протокол<a class="headerlink" href="#ssh" title="Permanent link">#</a></h2>
+<p>Нужен для безопасной передачи данных между локальным и удаленным репозиториями. Использование ssh соединения один из способов и мы будем пользоваться им.</p>
+<p>Для этого нужно создать пару ssh-ключей - приватный и публичный. Приватный будет храниться на твоем компьютере, а личный указан в настройках на github.</p>
+<p><br></p>
+<h3 id="ssh_1">Создание SSH ключа<a class="headerlink" href="#ssh_1" title="Permanent link">#</a></h3>
+<ol>
+<li>Открой терминал (<code>Git bash для Windows</code> / <code>Встроенный терминал для Mac</code>)</li>
+<li>Выполни команду:
+<div class="highlight"><pre><span></span><code>ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&quot;your_email@example.com&quot;</span>
+<span class="c1"># где your_email@example.com - почта на которую регистрировал аккаунт на github</span>
+<span class="c1"># Эту же почту указывал, настраивая Git сразу после установки</span>
+</code></pre></div></li>
+<li>Терминал предложит указать месторасположения ssh ключа. Просто жми <code>enter</code>:
+<div class="highlight"><pre><span></span><code>&gt; Enter a file <span class="k">in</span> which to save the key <span class="o">(</span>/c/Users/you/.ssh/id_ed25519<span class="o">)</span>:<span class="o">[</span>Press enter<span class="o">]</span>
+</code></pre></div></li>
+<li>Предложат ввести пароль - придумай и введи его:
+<div class="highlight"><pre><span></span><code>&gt; Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: <span class="o">[</span>Type a passphrase<span class="o">]</span>
+<span class="c1"># при вводе пароля символы и/или * видны не будут - это сделано для безопасности.</span>
+</code></pre></div></li>
+<li>Введи пароль повторно:
+<div class="highlight"><pre><span></span><code>&gt; Enter same passphrase again: <span class="o">[</span>Type passphrase again<span class="o">]</span>
+<span class="c1"># при вводе пароля символы и/или * видны не будут - это сделано для безопасности.</span>
+</code></pre></div></li>
+</ol>
+<p>По умолчанию ssh-ключи будут созданы в папке пользователя в скрытой подпапке .ssh:
+<div class="highlight"><pre><span></span><code>/c/Users/your-user-name/.ssh/ <span class="c1">#для Windows</span>
+/Users/your-user-name/.ssh/ <span class="c1">#для Mac</span>
+</code></pre></div>
+<img alt="SSH ключи" src="../../images/ssh-keys.png" /></p>
+<p>Два файла типа <code>id_*</code> и <code>id_*.pub</code> - и есть ключи. Файл с расширенийм <code>*.pub</code> содержит публичный ключ - его добавь на github.</p>
+<p><br></p>
+<h3 id="ssh-github">Добавление ssh-ключа на github<a class="headerlink" href="#ssh-github" title="Permanent link">#</a></h3>
+<ol>
+<li>Любым известным тебе способом скопируй все <strong>содержимое</strong> файла публичного ключа <code>id_*.pub</code> в буфер обмена.</li>
+<li>Зайди в настройки аккаунта github:
+<img alt="Настройки github" src="../../images/go-settings.png" /></li>
+<li>В левом боковом меню выбери пункт <code>SSH and GPG keys</code></li>
+<li>Нажми на первую зеленую кнопку <code>New SSH key</code></li>
+<li>В поле <code>title</code> введи название ключа. Любое, что бы понять что за ключ - "Home computer", "My win notebook", "Work laptop". У тебя может быть несколько компьютеров - для каждого устройства нужно делать уникальную пару ssh-ключей.</li>
+<li>В поле <code>key</code> вставь все содержимое файла публичного ключа <code>id_*.pub</code>
+<img alt="Добавление ssh-ключей на github" src="../../images/add-key.png" /></li>
+<li>Нажми зеленую кнопку <code>Add SSH key</code></li>
+<li>Спроси у бабушки на какой полке лежат пирожки</li>
+</ol>
+<p>Поздравляю - безопасное ssh-соединение с github настроено.</p>
+<p><br></p>
+<h2 id="git-_1">Создание Git-репозитория<a class="headerlink" href="#git-_1" title="Permanent link">#</a></h2>
+<p>Существует два варианта:</p>
+<ol>
+<li>Сделать репозиторий с нуля</li>
+<li>Создать репозиторий из заготовки уже размещенной на удаленном репозитории</li>
+</ol>
+<p>Оба варианта подразумевают создание пустого удаленного репозитория на github.</p>
+<h3 id="github">Создаем репозиторий на github<a class="headerlink" href="#github" title="Permanent link">#</a></h3>
+<ol>
+<li>Нажми на  <code>+</code> в правом верхнем углу интерфейса github и выбери <code>New repository</code></li>
+<li>Введи название репозитория. Для учебного проекта по шаблону <code>name-project-surname</code>, где <code>surname</code> - твоя фамилия:
+<img alt="Создание репозитория" src="../../images/create-repo.png" /></li>
+<li>В <code>description</code> короткое емкое описание проекта (желательно)</li>
+<li>Чекбоксы ниже не ставь.</li>
+<li>Жми зеленую кнопку <code>Create repository</code></li>
+<li>Увидишь результат - убедись, что переключатель сверху стоит в положении <code>ssh</code>:
+<img alt="Создание репозитория" src="../../images/repo-settings.png" /></li>
+<li>Не закрывай вкладку. Тебе будут нужны три команды - на скриншоте выше обведены красным</li>
+</ol>
+<h3 id="1-">Вариант 1 - с нуля<a class="headerlink" href="#1-" title="Permanent link">#</a></h3>
+<p>Coming soon...</p>
+<h3 id="2-">Вариант 2 - из заготовки<a class="headerlink" href="#2-" title="Permanent link">#</a></h3>
+<p>На курсе нам интересен этот вариант - мы будем использовать <a href="https://github.com/kaddem/student-scss-pack">заготовку для учебного проекта</a>:</p>
+<ol>
+<li>Форкни этот репозиторий, т.е. сделай копию заготовки в своем аккаунте на github. Нажми справа вверху кнопку <code>Fork</code>:
+<img alt="Форк репозитория" src="../../images/fork.png" /></li>
+<li>Склонируй свой форк. Склонировать, значит скачать себе на компьютер все содержимое удаленного репозитория, сделав тем самым локальную копию. Нажми зеленую нопку <code>code (1)</code>, далее переключатель в состояние <code>ssh (2)</code> и скопируй путь <code>(3)</code>:
+<img alt="Клонируем репозиторий" src="../../images/git-clone.png" /></li>
+<li>В терминале перейди в папку под свои проекты.</li>
+<li>Введи команду:
+<div class="highlight"><pre><span></span><code>git clone и-путь-из-пункта-2 название-папки-проекта
+<span class="c1"># что-то типа:</span>
+<span class="c1"># git clone git@github.com:kaddem/student-scss-pack.git sand-smile-demidov</span>
+<span class="c1"># название-папки-проекта - название созданного выше пустого</span>
+<span class="c1"># репозитория на github</span>
+
+
+<span class="c1"># будет создана папка &quot;sand-smile-demidov&quot; и</span>
+<span class="c1"># в нее скачано все содержимое заготовки</span>
+</code></pre></div></li>
+<li>Перейди в папку проекта:
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span> название-папки-проекта
+</code></pre></div></li>
+<li>Введи команду:
+<div class="highlight"><pre><span></span><code>git remote rm origin
+<span class="c1"># Разорвешь связь между только-что созданным локальным</span>
+<span class="c1"># репозиторием и удаленным репозиторием с заготовкой</span>
+</code></pre></div></li>
+<li>Вернись в браузере к странице с созданным пустым репозиторием. Выполни в терминале, в точности как указано, три команды по очереди (обведены на скриншоте):
+<img alt="Создание репозитория" src="../../images/repo-settings.png" />
+<div class="highlight"><pre><span></span><code>git remote add ... <span class="c1">#свяжет локальный репозиторий с удаленным пустым</span>
+
+<span class="c1">#остальные запушат его.</span>
+</code></pre></div></li>
+</ol>
+<p>Поздравляю - ты развернул локальный репозиторий под учебный проект на базе заготовки и запушил его в удаленный репозиторий</p>
                 
               
               
@@ -443,6 +786,25 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../settings/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              Настройка окружения
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
