@@ -24,7 +24,7 @@ sudo apachectl start
 2. Введи пароль, который юзаешь для входа в систему. Когда будешь вводить в консоли ничего не измениться, как будто строка пустая и каретка не двигается \- это норма при вводе пароля! Ввел \- не забудь Enter жмакнуть.
 
 3. Проверь, что сервак стартанул. Иди в браузер, вводи url `http://localhost`. Должно быть так:
-![Запущенный сервер Apache](../../images/apache-working.png)
+![Запущенный сервер Apache](../images/apache-working.png)
 > Файлы localhost'а лежат в директории `/Library/WebServer/Documents`.
 
 Да, сервер должен стартовать сам при запуске компа - проверь это.
@@ -43,15 +43,15 @@ sudo subl /etc/apache2/httpd.conf
 > [Вот тут](https://panjeh.medium.com/open-sublime-text-3-from-terminal-in-macos-linux-837d3eea3156) хороший человек пишет как это сделать.
 
 2. Раскомментируй строку, отвечающую за загрузку модуля *php7_module* `LoadModule php7_module libexec/apache2/libphp7.so`, удалив перед строкой символ #:
-![Включаем PHP в httpd.conf](../../images/local-conf.png)
-    
+![Включаем PHP в httpd.conf](../images/local-conf.png)
+
 3. Так же раскомментируй строку:
 ```bash
 LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 ```
 
 4. Сохрани файл.
-    
+
 5. Конфигурация сервака изменилась. Что бы изменения применились, перезапусти сервак:
 ```bash
 sudo apachectl restart
@@ -77,7 +77,7 @@ Group staff
 ```
 
 4. Сохрани файл.
-    
+
 5. Перезапусти сервак:
 ```bash
 sudo apachectl restart
