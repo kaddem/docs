@@ -767,9 +767,17 @@
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span> название-папки-проекта
 </code></pre></div></li>
 <li>Введи команду:
-<div class="highlight"><pre><span></span><code>git remote rm origin
-<span class="c1"># Разорвешь связь между только-что созданным локальным</span>
-<span class="c1"># репозиторием и удаленным репозиторием с заготовкой</span>
+<div class="highlight"><pre><span></span><code>rm -rf .git <span class="c1"># удалим папку .git/</span>
+<span class="c1"># Так мы разорвем связь с удаленным репозиторием заготовки,</span>
+<span class="c1"># удалим историю коммитов создателя заготовки и</span>
+<span class="c1"># уничтожим сам гит-репозиторий</span>
+</code></pre></div></li>
+<li>По новой инициализируй гит-репозиторий
+<div class="highlight"><pre><span></span><code>git init
+</code></pre></div></li>
+<li>Добавь все файлы в отслеживание и сделай коммит
+<div class="highlight"><pre><span></span><code>git add . <span class="c1"># Добавляем все файлы в отслеживание</span>
+git commit -am <span class="s2">&quot;Сообщение коммита&quot;</span>
 </code></pre></div></li>
 <li>Вернись в браузере к странице с созданным пустым репозиторием.
 Выполни в терминале, в точности как указано именно у тебя в браузере, три команды по очереди (обведены на скриншоте):
