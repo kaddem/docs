@@ -27,7 +27,7 @@ sudo apachectl start
 ![Запущенный сервер Apache](../images/apache-working.png)
 > Файлы localhost'а лежат в директории `/Library/WebServer/Documents`.
 
-Да, сервер должен стартовать сам при запуске компа - проверь это.
+Теперь сервер должен стартовать сам при запуске компа - проверь это.
 
 <br>
 
@@ -39,7 +39,7 @@ sudo apachectl start
 ```bash
 sudo subl /etc/apache2/httpd.conf
 ```
-> Я н___я не умею пользоваться консольными редакторами (```nano/vim```) и настроил символьную ссылку для открытия файлов в Sublime Text 3 из консоли, отсюда в команде выше видишь ```subl```.
+> Я не умею пользоваться консольными редакторами (```nano/vim```) и настроил символьную ссылку для открытия файлов в Sublime Text 3 из консоли, отсюда в команде выше видишь ```subl```.
 > [Вот тут](https://panjeh.medium.com/open-sublime-text-3-from-terminal-in-macos-linux-837d3eea3156) хороший человек пишет как это сделать.
 
 2. Раскомментируй строку, отвечающую за загрузку модуля *php7_module* `LoadModule php7_module libexec/apache2/libphp7.so`, удалив перед строкой символ #:

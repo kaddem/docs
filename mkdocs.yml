@@ -31,5 +31,5 @@ nav:
   - 'Инструметы разработчика':
     - 'Настройка окружения': 'tools/settings.md'
     - 'Работа с Git': 'tools/git.md'
-    - 'Настройка локального сервера на macOS': 'tools/local-server.md'
+    - 'Настройка локального сервера на macOS': 'tools/local-server-mac.md'
 
