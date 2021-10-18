@@ -28,7 +28,7 @@ nav:
   - 'Code guide':
     - 'Правила написания HTML': 'code-guide/02_html.md'
     - 'Правила написания CSS': 'code-guide/03_css.md'
-  - 'Инструметы разработчика':
+  - 'Инструменты разработчика':
     - 'Настройка окружения': 'tools/settings.md'
     - 'Работа с Git': 'tools/git.md'
     - 'Настройка локального сервера на macOS': 'tools/local-server-mac.md'
