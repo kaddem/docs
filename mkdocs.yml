@@ -32,4 +32,4 @@ nav:
     - 'Настройка окружения': 'tools/settings.md'
     - 'Работа с Git': 'tools/git.md'
     - 'Настройка локального сервера на macOS': 'tools/local-server-mac.md'
-
+    - 'Настройка локального сервера на Windows': 'tools/local-server-windows.md'
