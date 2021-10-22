@@ -177,7 +177,7 @@ DocumentRoot "/Library/WebServer/Documents"
 </VirtualHost>
 ```
 
-6. Созрани и закрой файл.
+6. Сохрани и закрой файл.
 
 7. Перезапусти сервак:
 ```bash
