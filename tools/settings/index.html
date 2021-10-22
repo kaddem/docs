@@ -418,6 +418,19 @@
     Sublime Text
   </a>
   
+    <nav class="md-nav" aria-label="Sublime Text">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    Пользователям macOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -588,6 +601,19 @@
     Sublime Text
   </a>
   
+    <nav class="md-nav" aria-label="Sublime Text">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    Пользователям macOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -706,8 +732,23 @@
 </ol>
 <p><br></p>
 <h2 id="sublime-text">Sublime Text<a class="headerlink" href="#sublime-text" title="Permanent link">#</a></h2>
-<p><a href="https://www.sublimetext.com">Sublime Text</a> - более простой из коробки, но от этого не менее прекрасный редактор кода. Подойдет как дополнительный инструмент для открытия отдельных файлов в том числе прямо из консоли.</p>
+<p><a href="https://www.sublimetext.com">Sublime Text</a> - более простой из коробки, но от этого не менее прекрасный редактор кода. Подойдет как дополнительный инструмент для открытия отдельных файлов в том числе прямо из консоли (актуально юзерам MacOS).</p>
 <p>Скачай и установи его. Он еще пригодится.</p>
+<h3 id="macos">Пользователям macOS<a class="headerlink" href="#macos" title="Permanent link">#</a></h3>
+<p>Позже, настраивая локальный сервер, тебе будет удобно открывать файлы прямо из терминала.
+Добавим возможность открывать файлы из терминала в Sublime Text.</p>
+<ol>
+<li>Проверь возможность открытия Sublime Text из терминала:
+<div class="highlight"><pre><span></span><code>open /Applications/Sublime<span class="se">\ </span>Text.app/Contents/SharedSupport/bin/subl
+<span class="c1"># должно открыться окно Sublime Text.</span>
+</code></pre></div></li>
+<li>В точности повтори команду ниже:
+<div class="highlight"><pre><span></span><code>sudo ln -s /Applications/Sublime<span class="se">\ </span>Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+</code></pre></div></li>
+<li>Проверь, что теперь ты можешь открыть любую папку или файл в Sublime Text через терминал командой <code>subl</code>, например папку рабочего стола:
+<div class="highlight"><pre><span></span><code>subl ~/Desktop/
+</code></pre></div></li>
+</ol>
 <p><br></p>
 <h2 id="git">Git<a class="headerlink" href="#git" title="Permanent link">#</a></h2>
 <p><a href="https://git-scm.com">Git</a> - система контроля версий.</p>
