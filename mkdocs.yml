@@ -1,7 +1,7 @@
 site_name: Study Docs
 site_author: Kirill Demidov
 site_description: 'Документация для начинающих web-разработчиков обучающихся на очных курсах'
-copyright: '2021. Читай, предлагай исправления, делись и указывай *** источник.'
+copyright: '2023. Читай, предлагай исправления, делись и указывай *** источник.'
 repo_url: https://github.com/kaddem/docs
 repo_name: 'GitHub'
 theme:
